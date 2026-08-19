@@ -16,11 +16,10 @@ class JadwalKuliahApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
         useMaterial3: true,
       ),
-      home: const Scaffold(
-        appBar: AppBar(title: Text('Jadwal Kuliah')),
-        body: Center(child: Text('Proyek siap dikembangkan')),
+      home: Scaffold(
+        appBar: AppBar(title: const Text('Jadwal Kuliah')),
+        body: const Center(child: Text('Proyek siap dikembangkan')),
       ),
     );
   }
 }
-
